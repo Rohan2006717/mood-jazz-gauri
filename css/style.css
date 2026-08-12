@@ -250,11 +250,227 @@
     cursor: pointer;
   }
   
-  .dots-btn:hover {
+.dots-btn:hover {
     color: var(--text-primary);
     background: rgba(255, 255, 255, 0.18);
   }
-  
+
+  /* ---------------------------------------------------------
+     Dots menu (dropdown from ⋮ button)
+     --------------------------------------------------------- */
+
+  .dots-menu-wrap {
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .dots-menu {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    right: 0;
+    min-width: 120px;
+    padding: 6px;
+    background: var(--bar-bg-solid);
+    backdrop-filter: blur(16px) saturate(150%);
+    -webkit-backdrop-filter: blur(16px) saturate(150%);
+    border: 1px solid var(--bar-border);
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+    z-index: 20;
+  }
+
+  .dots-menu.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dots-menu-item {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-primary);
+    font-family: var(--font-ui);
+    font-size: 12px;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+
+  .dots-menu-item:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .dots-menu-item.active {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  /* ---------------------------------------------------------
+     Lyrics panel — right column
+     --------------------------------------------------------- */
+
+  .lyrics-panel {
+    position: fixed;
+    top: 28px;
+    right: 28px;
+    bottom: calc(28px + 88px);
+    width: min(340px, calc(100vw - 56px));
+    display: flex;
+    flex-direction: column;
+    padding: 14px 16px;
+    background: var(--bar-bg);
+    backdrop-filter: blur(16px) saturate(150%);
+    -webkit-backdrop-filter: blur(16px) saturate(150%);
+    border: 1px solid var(--bar-border);
+    border-radius: 16px;
+    box-shadow: 0 16px 44px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(16px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    z-index: 15;
+  }
+
+  .lyrics-panel.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .lyrics-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--bar-border);
+    flex-shrink: 0;
+  }
+
+  .lyrics-heading {
+    color: var(--text-primary);
+    font-family: var(--font-lcd);
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .lyrics-close-btn {
+    width: 26px;
+    height: 26px;
+    border: 1px solid var(--bar-border);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-secondary);
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .lyrics-close-btn:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.18);
+  }
+
+  .lyrics-track-info {
+    padding: 10px 0 8px;
+    flex-shrink: 0;
+  }
+
+  .lyrics-track-title {
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .lyrics-track-artist {
+    color: var(--text-secondary);
+    font-size: 11px;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .lyrics-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px 0 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    scroll-behavior: smooth;
+  }
+
+  .lyrics-line {
+    color: var(--text-faint);
+    font-size: 15px;
+    line-height: 1.45;
+    cursor: pointer;
+    transition: color 0.25s ease, transform 0.25s ease;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+
+  .lyrics-line:hover {
+    color: var(--text-secondary);
+  }
+
+  .lyrics-line.active {
+    color: var(--text-primary);
+    font-size: 17px;
+    font-weight: 600;
+    transform: scale(1.02);
+    transform-origin: left center;
+  }
+
+  .lyrics-line.past {
+    color: var(--text-secondary);
+  }
+
+  .lyrics-line-spacer {
+    height: 6px;
+    cursor: default;
+  }
+
+  .lyrics-empty {
+    color: var(--text-secondary);
+    font-size: 12px;
+    text-align: center;
+    margin: auto 0;
+    padding: 20px 10px;
+  }
+
+  .lyrics-content::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .lyrics-content::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .lyrics-content::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+  }
+
+  .lyrics-content {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.25) transparent;
+  }
+
   /* =========================================================
      Small screens
      ========================================================= */
@@ -263,6 +479,12 @@
     .player-bar { bottom: 16px; padding: 8px 10px; gap: 10px; }
     .bar-art { width: 46px; height: 46px; }
     .time-elapsed, .time-total { display: none; }
+    .lyrics-panel {
+      top: 18px;
+      right: 18px;
+      bottom: calc(16px + 76px);
+      width: calc(100vw - 36px);
+    }
   }
   /* =========================================================
    JAZZ TITLE OVERLAY

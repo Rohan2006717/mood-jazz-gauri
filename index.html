@@ -134,6 +134,41 @@
 
 
   <!-- =====================================================
+       LYRICS PANEL (right column)
+       ===================================================== -->
+
+  <div class="lyrics-panel" id="lyricsPanel" aria-hidden="true">
+
+    <div class="lyrics-header">
+
+      <div class="lyrics-heading">LYRICS</div>
+
+      <button
+          class="lyrics-close-btn"
+          id="lyricsCloseBtn"
+          aria-label="Close lyrics"
+      >
+          ✕
+      </button>
+
+    </div>
+
+    <div
+        class="lyrics-track-info"
+        id="lyricsTrackInfo"
+    ></div>
+
+    <div
+        class="lyrics-content"
+        id="lyricsContent"
+    >
+        <p class="lyrics-empty">No lyrics available for this track.</p>
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
        BOTTOM-DOCKED PLAYER
        ===================================================== -->
 
@@ -244,15 +279,38 @@
     </div>
 
 
-    <!-- Three-dot button -->
+    <!-- Three-dot button + options menu -->
 
-    <button
-        class="dots-btn"
-        id="dotsBtn"
-        aria-label="Playlist options"
-    >
-        ⋮
-    </button>
+    <div class="dots-menu-wrap">
+
+      <button
+          class="dots-btn"
+          id="dotsBtn"
+          aria-label="Player options"
+          aria-haspopup="true"
+          aria-expanded="false"
+      >
+          ⋮
+      </button>
+
+      <div
+          class="dots-menu"
+          id="dotsMenu"
+          role="menu"
+          aria-hidden="true"
+      >
+
+        <button
+            class="dots-menu-item"
+            id="lyricsMenuBtn"
+            role="menuitem"
+        >
+            Lyrics
+        </button>
+
+      </div>
+
+    </div>
 
 
   </div>
