@@ -817,3 +817,76 @@
         rgba(255, 255, 255, 0.25)
         transparent;
 }
+
+/* =========================================================
+   EXPANDED SONG COVER OVERLAY
+   ========================================================= */
+
+.cover-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.cover-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cover-overlay-image {
+    width: min(72vh, 72vw, 560px);
+    aspect-ratio: 1 / 1;
+    padding: 0;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    background: repeating-conic-gradient(#1a1a1a 0% 25%, #000 0% 50%) 0 0 / 24px 24px;
+    box-shadow: 0 26px 70px rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(0.92);
+    transition: transform 0.3s ease;
+}
+
+.cover-overlay.open .cover-overlay-image {
+    transform: scale(1);
+}
+
+.cover-overlay-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Keep the bottom playbar fully visible above the overlay */
+.player-bar {
+    z-index: 70;
+}
+
+/* The small song cover in the playbar acts as a toggle button */
+.bar-art {
+    cursor: pointer;
+    position: relative;
+}
+
+.bar-art::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.28);
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    pointer-events: none;
+}
+
+.bar-art:hover::after {
+    opacity: 1;
+}

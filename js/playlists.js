@@ -85,5 +85,206 @@
         cover: "assets/covers/10 - Elvis Presley - Are You Lonesome Tonight?.jpg",
         lyricsSrc: "assets/lyrics/Are You Lonesome Tonight.lrc"
       },
+      {
+        title: "What You Won't Do for Love",
+        artist: "Bobby Caldwell",
+        src: "assets/audio/What You Won't Do for Love [n9DmdAwUbxc].mp3",
+        cover: "assets/covers/15 - Bobby Caldwell - What You Won't Do for Love.jpg",
+        lyricsSrc: "assets/lyrics/What You Won't Do for Love.lrc"
+      },
+      {
+        title: "The Way You Look Tonight",
+        artist: "Frank Sinatra",
+        src: "assets/audio/Frank Sinatra - The Way You Look Tonight (Audio) [gfW398PdTGM].mp3",
+        cover: "assets/covers/45 - Frank Sinatra - The Way You Look Tonight.jpg",
+        lyricsSrc: "assets/lyrics/The Way You Look Tonight.lrc"
+      },
+      {
+        title: "Can't Take My Eyes Off You",
+        artist: "Frankie Valli",
+        src: "assets/audio/Frankie Valli - Can't Take My Eyes Off You (Official Audio) [J36z7AnhvOM].mp3",
+        cover: "assets/covers/25 - Frankie Valli - Can't Take My Eyes off You.jpg",
+        lyricsSrc: "assets/lyrics/Can't Take My Eyes Off You.lrc"
+      },
+      {
+        title: "Sway",
+        artist: "Michael Bublé",
+        src: "assets/audio/Michael Bublé - Sway (Official Lyric Video).mp3",
+        cover: "assets/covers/61 - Michael Bublé - Sway.jpg",
+        lyricsSrc: "assets/lyrics/Sway.lrc"
+      },
+      {
+        title: "That's Amore",
+        artist: "Dean Martin",
+        src: "assets/audio/Dean Martin - That's Amore (Lyric Video).mp3",
+        cover: "assets/covers/29 - Dean Martin - That's Amore.jpg",
+        lyricsSrc: "assets/lyrics/That's Amore.lrc"
+      },
+      {
+        title: "Everybody Loves Somebody",
+        artist: "Dean Martin",
+        src: "assets/audio/Dean Martin - Everybody Loves Somebody (Official Audio).mp3",
+        cover: "assets/covers/24 - Dean Martin - Everybody Loves Somebody.jpg",
+        lyricsSrc: "assets/lyrics/Everybody Loves Somebody.lrc"
+      },
+      {
+        title: "Oh, Pretty Woman",
+        artist: "Roy Orbison",
+        src: "assets/audio/Roy Orbison - Oh, Pretty Woman (Lyrics).mp3",
+        cover: "assets/covers/26 - Roy Orbison - Oh, Pretty Woman.jpg",
+        lyricsSrc: "assets/lyrics/Oh, Pretty Woman.lrc"
+      },
+      {
+        title: "Cheek To Cheek",
+        artist: "Ella Fitzgerald, Louis Armstrong",
+        src: "assets/audio/Ella Fitzgerald, Louis Armstrong - Cheek To Cheek (Official Video) [20iOlPwz0J0].mp3",
+        cover: "assets/covers/48 - Ella Fitzgerald - Cheek To Cheek.jpg",
+        lyricsSrc: "assets/lyrics/Cheek To Cheek.lrc"
+      },
+      {
+        title: "Dream A Little Dream Of Me",
+        artist: "Ella Fitzgerald, Louis Armstrong",
+        src: "assets/audio/Ella Fitzgerald, Louis Armstrong - Dream A Little Dream Of Me (Audio) [OAVZuSoP8dk].mp3",
+        cover: "assets/covers/37 - Ella Fitzgerald - Dream A Little Dream Of Me - Single Version.jpg",
+        lyricsSrc: "assets/lyrics/Dream A Little Dream Of Me (Ella & Louis).lrc"
+      },
+      {
+        title: "I've Got A Crush On You",
+        artist: "Ella Fitzgerald",
+        src: "assets/audio/Ella Fitzgerald - I've got a crush on you (Lyrics) [ww7V4MC3_k0].mp3",
+        cover: "assets/covers/53 - Ella Fitzgerald - I've Got A Crush On You.jpg",
+        lyricsSrc: "assets/lyrics/I've Got A Crush On You.lrc"
+      },
+      {
+        title: "It Don't Mean A Thing (If It Ain't Got That Swing)",
+        artist: "Ella Fitzgerald, Duke Ellington",
+        src: "assets/audio/Ella Fitzgerald and Duke Ellington ＂It Don't Mean A Thing (If It Ain't Got That Swing)＂ [myRc-3oF1d0].mp3",
+        cover: "assets/covers/56 - Ella Fitzgerald - It Don't Mean A Thing (If It Ain't Got That Swing).jpg",
+        lyricsSrc: "assets/lyrics/It Don't Mean A Thing.lrc"
+      },
+      {
+        title: "S'wonderful",
+        artist: "Fred Astaire, Audrey Hepburn",
+        src: "assets/audio/Audrey Hepburn & Fred Astaire  - S'wonderful -  Song from Funny Face (10 of 10).mp3",
+        cover: "assets/covers/60 - Fred Astaire - 'S Wonderful.jpg",
+        lyricsSrc: "assets/lyrics/S'wonderful.lrc"
+      },
+      {
+        title: "Hello, Dolly!",
+        artist: "Louis Armstrong",
+        src: "assets/audio/Louis Armstrong - Hello, Dolly! (At The BBC).mp3",
+        cover: "assets/covers/12 - Louis Armstrong - Hello, Dolly!.jpg",
+        lyricsSrc: "assets/lyrics/Hello Dolly.lrc"
+      },
+      {
+        title: "Heartbreak Hotel",
+        artist: "Elvis Presley",
+        src: "assets/audio/Elvis Presley - Heartbreak Hotel (Official Lyric Video).mp3",
+        cover: "assets/covers/19 - Elvis Presley - Heartbreak Hotel.jpg",
+        lyricsSrc: "assets/lyrics/Heartbreak Hotel.lrc"
+      },
+      {
+        title: "At Last",
+        artist: "Etta James",
+        src: "assets/audio/At Last (Remastered).mp3",
+        cover: "assets/covers/27 - Etta James - At Last.jpg",
+        lyricsSrc: "assets/lyrics/At Last.lrc"
+      },
+      {
+        title: "For Sentimental Reasons",
+        artist: "The Righteous Brothers",
+        src: "assets/audio/For Sentimental Reasons [OyB0O0-DdXU].mp3",
+        cover: "assets/covers/28 - The Righteous Brothers - For Sentimental Reasons.jpg",
+        lyricsSrc: "assets/lyrics/For Sentimental Reasons.lrc"
+      },
+      {
+        title: "Forever",
+        artist: "The Little Dippers",
+        src: "assets/audio/Forever.mp3",
+        cover: "assets/covers/23 - The Little Dippers - Forever.jpg",
+        lyricsSrc: "assets/lyrics/Forever (Little Dippers).lrc"
+      },
+      {
+        title: "It's My Party",
+        artist: "Lesley Gore",
+        src: "assets/audio/Lesley Gore ＂It's My Party & She's A Fool＂ on The Ed Sullivan Show.mp3",
+        cover: "assets/covers/18 - Lesley Gore - It's My Party.jpg",
+        lyricsSrc: "assets/lyrics/It's My Party.lrc"
+      },
+      {
+        title: "We Belong Together",
+        artist: "Ritchie Valens",
+        src: "assets/audio/We Belong Together.mp3",
+        cover: "assets/covers/11 - Ritchie Valens - We Belong Together.jpg",
+        lyricsSrc: "assets/lyrics/We Belong Together.lrc"
+      },
+      {
+        title: "Be My Baby",
+        artist: "The Ronettes",
+        src: "assets/audio/The Ronettes - Be My Baby (Official Audio).mp3",
+        cover: "assets/covers/16 - The Ronettes - Be My Baby.jpg",
+        lyricsSrc: "assets/lyrics/Be My Baby.lrc"
+      },
+      {
+        title: "What Am I Gonna Do",
+        artist: "Jimmy Clanton",
+        src: "assets/audio/Jimmy Clanton - What Am I Gonna Do (1961).mp3",
+        cover: "assets/covers/31 - Jimmy Clanton - What Am I Gonna Do.jpg"
+      },
+      {
+        title: "La Vie En Rose",
+        artist: "Édith Piaf",
+        src: "assets/audio/La Vie En Rose [qPU8mENUBXk].mp3",
+        cover: "assets/covers/38 - Édith Piaf - La Vie en rose.jpg",
+        lyricsSrc: "assets/lyrics/La Vie En Rose.lrc"
+      },
+      {
+        title: "C'est Si Bon",
+        artist: "Eartha Kitt",
+        src: "assets/audio/C' EST SI BON EARTHA KITT [NWCo5ex40IQ].mp3",
+        cover: "assets/covers/46 - Eartha Kitt - C'est Si Bon.jpg",
+        lyricsSrc: "assets/lyrics/C'est Si Bon.lrc"
+      },
+      {
+        title: "There Are Worse Things I Could Do",
+        artist: "Stockard Channing",
+        src: "assets/audio/Stockard Channing - There Are Worse Things I Could Do [UkZYJZY-x_o].mp3",
+        cover: "assets/covers/52 - Stockard Channing - There Are Worse Things I Could Do - From “Grease”.jpg",
+        lyricsSrc: "assets/lyrics/There Are Worse Things I Could Do.lrc"
+      },
+      {
+        title: "Dream A Little Dream Of Me",
+        artist: "The Mamas & The Papas",
+        src: "assets/audio/The Mamas & The Papas - Dream A Little Dream of Me [fJwjLYRPxJY].mp3",
+        cover: "assets/covers/21 - The Mamas & The Papas - Dream A Little Dream Of Me.jpg",
+        lyricsSrc: "assets/lyrics/Dream A Little Dream Of Me (Mamas & Papas).lrc"
+      },
+      {
+        title: "Satan's a Woman",
+        artist: "Twin Temple",
+        src: "assets/audio/Twin Temple - ＂Satan's a Woman＂ [mIH7mDcoJjI].mp3",
+        cover: "assets/covers/34 - Twin Temple - Satan's a Woman.jpg",
+        lyricsSrc: "assets/lyrics/Satan's a Woman.lrc"
+      },
+      {
+        title: "De O De O Doe De O",
+        artist: "Skip Easterling",
+        src: "assets/audio/O de O, O de O Doe de O Skip Easterling [SwlSvDAl-i8].mp3",
+        cover: "assets/covers/36 - Skip Easterling - De O De O Doe De O.jpg"
+      },
+      {
+        title: "Autumn In New York",
+        artist: "Billie Holiday",
+        src: "assets/audio/Autumn in New York - Billie Holiday Lyrics (Sutitulado al español) [V02Hzd_Twuk].mp3",
+        cover: "assets/covers/58 - Billie Holiday - Autumn In New York.jpg",
+        lyricsSrc: "assets/lyrics/Autumn In New York.lrc"
+      },
+      {
+        title: "(Where Do I Begin) Love Story",
+        artist: "Shirley Bassey",
+        src: "assets/audio/[Where Do I Begin] Love Story [1994 Remaster] [QoFNy_neZhc].mp3",
+        cover: "assets/covers/57 - Shirley Bassey - (Where Do I Begin) Love Story - 1994 Remaster.jpg",
+        lyricsSrc: "assets/lyrics/(Where Do I Begin) Love Story.lrc"
+      },
     ]
   };
